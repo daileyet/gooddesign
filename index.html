@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link href="base/style/main.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1, width=device-width" />
+		<meta name="keywords" content="" />
+		<title>Google design guidelines</title>
+		<style>
+			footer {
+				display: none;
+			}
+			main,
+			body,
+			html {
+				background-color: #03A9F4;
+			}
+			svg {
+				min-height: 500px;
+			}
+			.txt {
+				stroke: white;
+				stroke-width: 1px;
+				font-size: 24px;
+				lengthAdjust: spacing;
+				fill: white;
+			}
+			.circle {
+				fill: white;
+				stroke: darkgoldenrod;
+				stroke-width: 1px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="qp-ui qp-ui-peekaboo" style="background-color: #00BCD4;">
+			<div data-qp-ui-data-id="qp:3" class="header-wrapper qp-ui qp-ui-peekaboo">
+				<div class="header-title">
+					<span class="section-title">Google Design</span>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<center>
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+
+					<defs>
+						<g id="rect11">
+							<rect x="0" width="100%" height="100" fill="slateblue" />
+							<a xlink:href="//www.google.com/design/spec/material-design/introduction.html">
+								<text x="50%" y="50" textLength="100" class="txt" transform="translate(-50,0)">Google</text>
+							</a>
+						</g>
+
+						<g id="rect12">
+							<rect x="0" width="100%" height="100" fill="orange" />
+							<a xlink:href="//daileyet.github.io/gooddesign/base/introduction.html">
+								<text x="50%" y="50" textLength="100" class="txt" transform="translate(-50,0)">English</text>
+							</a>
+						</g>
+
+						<g id="rect13">
+							<rect x="0" width="100%" height="100" fill="olivedrab" />
+							<a xlink:href="//daileyet.github.io/gooddesign/zh_CN/introduction.html">
+								<text x="50%" y="50" textLength="100" class="txt" transform="translate(-50,0)">Chinese</text>
+							</a>
+						</g>
+
+					</defs>
+					<use xlink:href="#rect11" transform="translate(0,0)" />
+
+					<use xlink:href="#rect12" transform="translate(0,100)" />
+
+					<use xlink:href="#rect13" transform="translate(0,200)" />
+
+				</svg>
+			</center>
+			
+		</main>
+
+		<footer>
+			<div>
+				&copy; <a href="//openthinks.com">OpenThinks.com</a>
+			</div>
+		</footer>
+	</body>
+
+</html>
