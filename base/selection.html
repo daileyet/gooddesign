@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+  'Futurizr': {
+    'hasTouch': 'touch'
+  }
+}">
+  <head>
+    <link href="style/main.css" rel="stylesheet"/>
+    <link href="style/print.css" rel="stylesheet"/>
+    <link href="style/css" rel="stylesheet" type="text/css"/>
+    <link href="style/icon" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <meta name="keywords" content=""/>
+    <title>
+      Selection - Patterns - Google design guidelines
+    </title>
+    <meta itemprop="name" content="Selection - Patterns - Google design guidelines"/>
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Selection - Patterns - Google design guidelines"/>
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:site_name" content="Google design guidelines"/>
+    <meta property="article:section" content="Selection - Patterns"/>
+    <!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Selection</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">Patterns</Attribute>
+      <Attribute name="section_slug">patterns</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->    <script src="js/analytics.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51798601-1', 'auto');
+  ga('send', 'pageview');
+
+//]]>
+    </script>
+    <title id="title">
+      Expand and collapse content
+    </title>
+    <title id="title">
+      Expand and collapse content
+    </title>
+  </head>
+  <body class="site-material_ext_publish section-patterns noninitial-chapter color-orange qp-ui" data-qp-ui="{ 'Mask': {} }">
+    <header>
+      <div class="header-wrapper">
+        <div class="header-title">
+          <span class="section-title">
+            Patterns
+          </span>
+          <span class="chapter-title">
+            <span class="material-icons title-separator">
+              chevron_right
+            </span>
+             Selection
+          </span>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
+        <i class="material-icons material-spec-icon" title="Show navigation">
+          menu
+        </i>
+      </button>
+    </nav>
+    <div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+      <div class="side-nav-wrapper">
+        <span id="logo">
+          <img src="images/nav_google_logo.svg" alt="Logo"/>
+        </span>
+        <nav>
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Material design
+                        
+            </dt>
+            <dd>
+              <a class="" href="introduction.html">
+                Introduction
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              What is material?
+                
+            </dt>
+            <dd>
+              <a class="" href="environment.html">
+                Environment
+                    
+              </a>
+              <a class="" href="material-properties.html">
+                Material properties
+                    
+              </a>
+              <a class="" href="elevation-shadows.html">
+                Elevation and shadows
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Animation
+                
+            </dt>
+            <dd>
+              <a class="" href="authentic-motion.html">
+                Authentic motion
+                    
+              </a>
+              <a class="" href="responsive-interaction.html">
+                Responsive interaction
+                    
+              </a>
+              <a class="" href="meaningful-transitions.html">
+                Meaningful transitions
+                    
+              </a>
+              <a class="" href="delightful-details.html">
+                Delightful details
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Style
+                
+            </dt>
+            <dd>
+              <a class="" href="color.html">
+                Color
+                    
+              </a>
+              <a class="" href="icons.html">
+                Icons
+                    
+              </a>
+              <a class="" href="imagery.html">
+                Imagery
+                    
+              </a>
+              <a class="" href="typography.html">
+                Typography
+                    
+              </a>
+              <a class="" href="writing.html">
+                Writing
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Layout
+                
+            </dt>
+            <dd>
+              <a class="" href="principles.html">
+                Principles
+                    
+              </a>
+              <a class="" href="units-measurements.html">
+                Units and measurements
+                    
+              </a>
+              <a class="" href="metrics-keylines.html">
+                Metrics &amp; keylines
+                    
+              </a>
+              <a class="" href="structure.html">
+                Structure
+                    
+              </a>
+              <a class="" href="adaptive-ui.html">
+                Adaptive UI
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Components
+                
+            </dt>
+            <dd>
+              <a class="" href="bottom-sheets.html">
+                Bottom sheets
+                    
+              </a>
+              <a class="" href="buttons.html">
+                Buttons
+                    
+              </a>
+              <a class="" href="buttons-floating-action-button.html">
+                Buttons: Floating Action Button
+                    
+              </a>
+              <a class="" href="cards.html">
+                Cards
+                    
+              </a>
+              <a class="" href="chips.html">
+                Chips
+                    
+              </a>
+              <a class="" href="data-tables.html">
+                Data tables
+                    
+              </a>
+              <a class="" href="dialogs.html">
+                Dialogs
+                    
+              </a>
+              <a class="" href="dividers.html">
+                Dividers
+                    
+              </a>
+              <a class="" href="grid-lists.html">
+                Grid lists
+                    
+              </a>
+              <a class="" href="lists.html">
+                Lists
+                    
+              </a>
+              <a class="" href="lists-controls.html">
+                Lists: Controls
+                    
+              </a>
+              <a class="" href="menus.html">
+                Menus
+                    
+              </a>
+              <a class="" href="pickers.html">
+                Pickers
+                    
+              </a>
+              <a class="" href="progress-activity.html">
+                Progress &amp; activity
+                    
+              </a>
+              <a class="" href="selection-controls.html">
+                Selection controls
+                    
+              </a>
+              <a class="" href="sliders.html">
+                Sliders
+                    
+              </a>
+              <a class="" href="snackbars-toasts.html">
+                Snackbars &amp; toasts
+                    
+              </a>
+              <a class="" href="subheaders.html">
+                Subheaders
+                    
+              </a>
+              <a class="" href="tabs.html">
+                Tabs
+                    
+              </a>
+              <a class="" href="text-fields.html">
+                Text fields
+                    
+              </a>
+              <a class="" href="toolbars.html">
+                Toolbars
+                    
+              </a>
+              <a class="" href="tooltips.html">
+                Tooltips
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">
+              Patterns
+                
+            </dt>
+            <dd>
+              <a class="" href="app-structure.html">
+                App structure
+                    
+              </a>
+              <a class="" href="data-formats.html">
+                Data formats
+                    
+              </a>
+              <a class="" href="empty-states.html">
+                Empty states
+                    
+              </a>
+              <a class="" href="errors.html">
+                Errors
+                    
+              </a>
+              <a class="" href="gestures.html">
+                Gestures
+                    
+              </a>
+              <a class="" href="fingerprint.html">
+                Fingerprint
+                    
+              </a>
+              <a class="" href="launch-screens.html">
+                Launch screens
+                    
+              </a>
+              <a class="" href="loading-images.html">
+                Loading images
+                    
+              </a>
+              <a class="" href="navigation-drawer.html">
+                Navigation drawer
+                    
+              </a>
+              <a class="" href="navigation.html">
+                Navigation
+                    
+              </a>
+              <a class="" href="navigational-transitions.html">
+                Navigational transitions
+                    
+              </a>
+              <a class="" href="notifications.html">
+                Notifications
+                    
+              </a>
+              <a class="" href="permissions.html">
+                Permissions
+                    
+              </a>
+              <a class="" href="scrolling-techniques.html">
+                Scrolling techniques
+                    
+              </a>
+              <a class="" href="search.html">
+                Search
+                    
+              </a>
+              <a class="nav_selected" href="selection.html">
+                Selection
+                    
+              </a>
+              <a class="" href="settings.html">
+                Settings
+                    
+              </a>
+              <a class="" href="swipe-to-refresh.html">
+                Swipe to refresh
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Usability
+                
+            </dt>
+            <dd>
+              <a class="" href="accessibility.html">
+                Accessibility
+                    
+              </a>
+              <a class="" href="bidirectionality.html">
+                Bidirectionality
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Resources
+                
+            </dt>
+            <dd>
+              <a class="" href="color-palettes.html">
+                Color palettes
+                              
+              </a>
+              <a class="" href="devices.html">
+                Devices
+                    
+              </a>
+              <a class="" href="layout-templates.html">
+                Layout templates
+                    
+              </a>
+              <a class="" href="roboto-noto-fonts.html">
+                Roboto &amp; Noto fonts
+                    
+              </a>
+              <a class="" href="sticker-sheets-icons.html">
+                Sticker sheets &amp; icons
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              What's new
+                        
+            </dt>
+            <dd>
+              <a class="" href="whats-new.html">
+                What's new
+                    
+              </a>
+            </dd>
+          </dl>
+        </nav>
+        <div class="legal">
+          <p class="copyright">
+            Google ©
+          </p>
+          <a href="">
+            Privacy
+          </a>
+           &amp; 
+          <a href="">
+            Terms
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+        <h1 class="chapter-title">
+          Selection
+          
+        </h1>
+        <div class="chapter-content">
+          <div class="chapter-intro">
+            <p>
+              Selection involves both the gestures and visual cues that allow users to make choices.
+            </p>
+            <p>
+              The global gesture to select data is a 
+              <strong>
+                long-press
+              </strong>
+              , a touch or mousedown that’s held in the same position for a moment. A two-finger touch may also trigger selection on touch devices.
+            </p>
+            <p>
+              Checkboxes, or custom analogs, should not be used for selection on mobile. They should only be used for contexts in which checking an item indicates completion, such as task lists or checklists, rather than selection.
+            </p>
+            <p>
+              Checkboxes may be used on desktop with the following guidelines:
+            </p>
+            <ul>
+              <li>
+                Avoid persistently displaying checkboxes as part of each item.
+              </li>
+              <li>
+                When hovering on an item, display a single checkbox for that item.
+              </li>
+              <li>
+                After an item has been selected, display checkboxes for all remaining items in that set.
+              </li>
+            </ul>
+          </div>
+          <nav class="chapter-toc">
+            <h1>
+              Contents
+            </h1>
+            <ul>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#selection-item-selection">
+                  Item selection
+                
+                </a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#selection-text-selection">
+                  Text selection
+                
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="article-list">
+            <div id="selection-item-selection" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Item selection
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleB1">
+                      <div class="module-body">
+                        <p>
+                          Support for multi-selection is strongly recommended for list and grid containers. This does not apply to actions available for a single selection (like a list of phone numbers, where calling is the only action), or if the context requires single-item manipulation (like moving icons on Android’s home screen).
+                        </p>
+                        <p>
+                          Gestures:
+                        </p>
+                        <ul>
+                          <li>
+                            When initiating selection, both long-press and two-finger touch may be extended using a drag gesture to select multiple items. Items between the beginning and end points of the drag will be included in the selection. 
+                          </li>
+                          <li>
+                            On desktop, a drag originating outside the bounds of all items may initiate multi-selection (for example, beginning a drag in the left margin of a list, and extending down and to the right to select list items).
+                          </li>
+                        </ul>
+                        <p>
+                          Once an initial selection is made, it can be altered through user actions:
+                        </p>
+                        <ul>
+                          <li>
+                            Touch a selected item to deselect it. Touch an unselected item to select it.
+                          </li>
+                          <li>
+                            Shift+touch/click on an item to select all items between two selected points.
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="selection-text-selection" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Text selection
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleB1">
+                      <div class="module-body">
+                        <p>
+                          Text selection is indicated by highlighting the bounds of the selected text. 
+                        </p>
+                        <p>
+                          On mobile, a selection handle is added to both the beginning and end of the selection. Actions related to the text appear in a dropdown menu positioned immediately above, but not overlapping, the selection.
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleE1">
+                      <div class="module-body">
+                        <p>
+                          Text selection must occur in one contiguous block. However, the bounds of the selection may be altered through user action:
+                        </p>
+                        <ul>
+                          <li>
+                            Dragging the initial selection to expand the selection
+                          </li>
+                          <li>
+                            Dragging either of the selection handles to expand or reduce the selection
+                          </li>
+                          <li>
+                            Touching (or clicking) repeatedly within the selection to expand it (single word &gt; paragraph &gt; all)
+                          </li>
+                          <li>
+                            Keyboard shortcuts (see table)
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="module-body data-table">
+                              <div class="table-box">
+                                <table cellpadding="0" cellspacing="0" class="c1">
+                                  <tbody>
+                                    <tr class="c8">
+                                      <td class="c6" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Keyboard shortcut
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c6" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Result
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c8">
+                                      <td class="c6" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Shift+Left/Right Arrow
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c6" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Character-by-character selection
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c8">
+                                      <td class="c6" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Shift+Up/Down Arrow
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c6" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Line-by-line selection
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c8">
+                                      <td class="c6" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Ctrl/Command+A
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c6" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Select all
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <p>
+                                  Text selection keyboard shortcuts can be used to alter the selection bounds.
+                                </p>
+                              </div>
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h4>
+                          Text selection handles
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_selection_text01.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of text selection handles
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_selection_text02.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of text selection handles
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleE1">
+                      <div class="module-body">
+                        <h4>
+                          Text selection - light theme
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_selection_text03.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Text selection - light theme
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleE1">
+                      <div class="module-body">
+                        <h4>
+                          Text selection - dark theme
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_selection_text04.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Text selection - dark theme
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <h3>
+                        Text selection toolbar
+                      </h3>
+                      <div class="module-body">
+                        <p>
+                          The floating toolbar appears above the selection area with primary actions of Cut, Copy, Paste, and More. When the user selects the More icon, the toolbar collapses and transforms into a secondary menu to reveal additional actions. 
+                        </p>
+                        <p>
+                          The font for the floating toolbar text is Roboto Medium 14sp, all caps.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_selection_text05.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Dropdown menus for Cut, Copy, Paste, and More appear above the selection area.
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_selection_text06.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                When the user selects More, the menu begins transitioning to show the overflow items. 
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_selection_text07.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                More
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_selection_text08.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Overflow menu items: Share, Search, and Translate 
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_selection_text09.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Text selection
+                              </div>
+                              <p>
+                                Dropdown menu height: 44dp
+                                <br/>
+                                Dropdown menu text top padding: 12dp
+                                <br/>
+                                Dropdown menu text top padding: 14dp
+                                <br/>
+                                Dropdown menu text left padding: 24dp
+                                <br/>
+                                Dropdown menu text right padding: 16dp
+                                <br/>
+                                Dropdown menu space between menu text items: 32dp
+                                <br/>
+                                Selected text top padding: 8dp
+                                <br/>
+                                Expansion icon top and bottom padding: 10dp
+                                <br/>
+                                Text selection handles: 22 x 22 dp
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-L section-patterns color-orange">
+           
+        </div>
+        <div class="footer-grid-L section-patterns color-orange">
+          <a class="footer-text" href="search.html">
+            <i class="material-icons arrow-L">
+              arrow_back
+            </i>
+            <span class="direction">
+              Previous
+            </span>
+            <div>
+              
+                      Search
+                  
+            </div>
+          </a>
+        </div>
+        <div class="footer-R section-patterns color-orange">
+           
+        </div>
+        <div class="footer-grid-R section-patterns color-orange">
+          <a class="footer-text" href="settings.html">
+            <i class="material-icons arrow-R">
+              arrow_forward
+            </i>
+            <span class="direction">
+              Next
+            </span>
+            <div>
+              
+                      Settings
+                  
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/picturefill.min.js">
+    </script>
+    <script src="js/main.js">
+    </script>
+  </body>
+</html>

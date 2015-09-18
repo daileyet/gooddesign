@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+  'Futurizr': {
+    'hasTouch': 'touch'
+  }
+}">
+  <head>
+    <link href="style/main.css" rel="stylesheet"/>
+    <link href="style/print.css" rel="stylesheet"/>
+    <link href="style/css" rel="stylesheet" type="text/css"/>
+    <link href="style/icon" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <meta name="keywords" content=""/>
+    <title>
+      Empty states - Patterns - Google design guidelines
+    </title>
+    <meta itemprop="name" content="Empty states - Patterns - Google design guidelines"/>
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Empty states - Patterns - Google design guidelines"/>
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:site_name" content="Google design guidelines"/>
+    <meta property="article:section" content="Empty states - Patterns"/>
+    <!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Empty states</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">Patterns</Attribute>
+      <Attribute name="section_slug">patterns</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->    <script src="js/analytics.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51798601-1', 'auto');
+  ga('send', 'pageview');
+
+//]]>
+    </script>
+    <title id="title">
+      Expand and collapse content
+    </title>
+    <title id="title">
+      Expand and collapse content
+    </title>
+  </head>
+  <body class="site-material_ext_publish section-patterns noninitial-chapter color-orange qp-ui" data-qp-ui="{ 'Mask': {} }">
+    <header>
+      <div class="header-wrapper">
+        <div class="header-title">
+          <span class="section-title">
+            Patterns
+          </span>
+          <span class="chapter-title">
+            <span class="material-icons title-separator">
+              chevron_right
+            </span>
+             Empty states
+          </span>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
+        <i class="material-icons material-spec-icon" title="Show navigation">
+          menu
+        </i>
+      </button>
+    </nav>
+    <div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+      <div class="side-nav-wrapper">
+        <span id="logo">
+          <img src="images/nav_google_logo.svg" alt="Logo"/>
+        </span>
+        <nav>
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Material design
+                        
+            </dt>
+            <dd>
+              <a class="" href="introduction.html">
+                Introduction
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              What is material?
+                
+            </dt>
+            <dd>
+              <a class="" href="environment.html">
+                Environment
+                    
+              </a>
+              <a class="" href="material-properties.html">
+                Material properties
+                    
+              </a>
+              <a class="" href="elevation-shadows.html">
+                Elevation and shadows
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Animation
+                
+            </dt>
+            <dd>
+              <a class="" href="authentic-motion.html">
+                Authentic motion
+                    
+              </a>
+              <a class="" href="responsive-interaction.html">
+                Responsive interaction
+                    
+              </a>
+              <a class="" href="meaningful-transitions.html">
+                Meaningful transitions
+                    
+              </a>
+              <a class="" href="delightful-details.html">
+                Delightful details
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Style
+                
+            </dt>
+            <dd>
+              <a class="" href="color.html">
+                Color
+                    
+              </a>
+              <a class="" href="icons.html">
+                Icons
+                    
+              </a>
+              <a class="" href="imagery.html">
+                Imagery
+                    
+              </a>
+              <a class="" href="typography.html">
+                Typography
+                    
+              </a>
+              <a class="" href="writing.html">
+                Writing
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Layout
+                
+            </dt>
+            <dd>
+              <a class="" href="principles.html">
+                Principles
+                    
+              </a>
+              <a class="" href="units-measurements.html">
+                Units and measurements
+                    
+              </a>
+              <a class="" href="metrics-keylines.html">
+                Metrics &amp; keylines
+                    
+              </a>
+              <a class="" href="structure.html">
+                Structure
+                    
+              </a>
+              <a class="" href="adaptive-ui.html">
+                Adaptive UI
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Components
+                
+            </dt>
+            <dd>
+              <a class="" href="bottom-sheets.html">
+                Bottom sheets
+                    
+              </a>
+              <a class="" href="buttons.html">
+                Buttons
+                    
+              </a>
+              <a class="" href="buttons-floating-action-button.html">
+                Buttons: Floating Action Button
+                    
+              </a>
+              <a class="" href="cards.html">
+                Cards
+                    
+              </a>
+              <a class="" href="chips.html">
+                Chips
+                    
+              </a>
+              <a class="" href="data-tables.html">
+                Data tables
+                    
+              </a>
+              <a class="" href="dialogs.html">
+                Dialogs
+                    
+              </a>
+              <a class="" href="dividers.html">
+                Dividers
+                    
+              </a>
+              <a class="" href="grid-lists.html">
+                Grid lists
+                    
+              </a>
+              <a class="" href="lists.html">
+                Lists
+                    
+              </a>
+              <a class="" href="lists-controls.html">
+                Lists: Controls
+                    
+              </a>
+              <a class="" href="menus.html">
+                Menus
+                    
+              </a>
+              <a class="" href="pickers.html">
+                Pickers
+                    
+              </a>
+              <a class="" href="progress-activity.html">
+                Progress &amp; activity
+                    
+              </a>
+              <a class="" href="selection-controls.html">
+                Selection controls
+                    
+              </a>
+              <a class="" href="sliders.html">
+                Sliders
+                    
+              </a>
+              <a class="" href="snackbars-toasts.html">
+                Snackbars &amp; toasts
+                    
+              </a>
+              <a class="" href="subheaders.html">
+                Subheaders
+                    
+              </a>
+              <a class="" href="tabs.html">
+                Tabs
+                    
+              </a>
+              <a class="" href="text-fields.html">
+                Text fields
+                    
+              </a>
+              <a class="" href="toolbars.html">
+                Toolbars
+                    
+              </a>
+              <a class="" href="tooltips.html">
+                Tooltips
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">
+              Patterns
+                
+            </dt>
+            <dd>
+              <a class="" href="app-structure.html">
+                App structure
+                    
+              </a>
+              <a class="" href="data-formats.html">
+                Data formats
+                    
+              </a>
+              <a class="nav_selected" href="empty-states.html">
+                Empty states
+                    
+              </a>
+              <a class="" href="errors.html">
+                Errors
+                    
+              </a>
+              <a class="" href="gestures.html">
+                Gestures
+                    
+              </a>
+              <a class="" href="fingerprint.html">
+                Fingerprint
+                    
+              </a>
+              <a class="" href="launch-screens.html">
+                Launch screens
+                    
+              </a>
+              <a class="" href="loading-images.html">
+                Loading images
+                    
+              </a>
+              <a class="" href="navigation-drawer.html">
+                Navigation drawer
+                    
+              </a>
+              <a class="" href="navigation.html">
+                Navigation
+                    
+              </a>
+              <a class="" href="navigational-transitions.html">
+                Navigational transitions
+                    
+              </a>
+              <a class="" href="notifications.html">
+                Notifications
+                    
+              </a>
+              <a class="" href="permissions.html">
+                Permissions
+                    
+              </a>
+              <a class="" href="scrolling-techniques.html">
+                Scrolling techniques
+                    
+              </a>
+              <a class="" href="search.html">
+                Search
+                    
+              </a>
+              <a class="" href="selection.html">
+                Selection
+                    
+              </a>
+              <a class="" href="settings.html">
+                Settings
+                    
+              </a>
+              <a class="" href="swipe-to-refresh.html">
+                Swipe to refresh
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Usability
+                
+            </dt>
+            <dd>
+              <a class="" href="accessibility.html">
+                Accessibility
+                    
+              </a>
+              <a class="" href="bidirectionality.html">
+                Bidirectionality
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Resources
+                
+            </dt>
+            <dd>
+              <a class="" href="color-palettes.html">
+                Color palettes
+                              
+              </a>
+              <a class="" href="devices.html">
+                Devices
+                    
+              </a>
+              <a class="" href="layout-templates.html">
+                Layout templates
+                    
+              </a>
+              <a class="" href="roboto-noto-fonts.html">
+                Roboto &amp; Noto fonts
+                    
+              </a>
+              <a class="" href="sticker-sheets-icons.html">
+                Sticker sheets &amp; icons
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              What's new
+                        
+            </dt>
+            <dd>
+              <a class="" href="whats-new.html">
+                What's new
+                    
+              </a>
+            </dd>
+          </dl>
+        </nav>
+        <div class="legal">
+          <p class="copyright">
+            Google ©
+          </p>
+          <a href="">
+            Privacy
+          </a>
+           &amp; 
+          <a href="">
+            Terms
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+        <h1 class="chapter-title">
+          Empty states
+          
+        </h1>
+        <div class="chapter-content">
+          <div class="chapter-intro">
+            <p>
+              Empty states occur when the regular content of a view can’t be shown. It might be a list which has no items, or a search which returned no results. Although these states aren’t typical, they are important opportunities for good design to avoid user disappointment or confusion.
+            </p>
+            <p>
+              If content cannot be displayed because of a system failure, see 
+              <a href="errors.html#errors-app-errors">
+                app errors
+              </a>
+              .
+            </p>
+          </div>
+          <nav class="chapter-toc">
+            <h1>
+              Contents
+            </h1>
+            <ul>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#empty-states-displaying-empty-states">
+                  Displaying empty states
+                
+                </a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#empty-states-avoiding-completely-empty-states">
+                  Avoiding completely empty states
+                
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="article-list">
+            <div id="empty-states-displaying-empty-states" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Displaying empty states
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <p>
+                          The most basic empty state displays a non-interactive image and a text tagline.
+                        </p>
+                        <p>
+                          Use an image that:
+                        </p>
+                        <ul>
+                          <li>
+                            Is subtle and neutral with respect to the background
+                          </li>
+                          <li>
+                            Conveys the purpose and potential of the app in a lively way, such as your app's icon
+                          </li>
+                        </ul>
+                        <p>
+                          Include a tagline that:
+                        </p>
+                        <ul>
+                          <li>
+                            Has a positive tone
+                          </li>
+                          <li>
+                            Is consistent with your brand
+                          </li>
+                          <li>
+                            Conveys the purpose of the app without appearing to be actionable
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class=" example do">
+                            <div class="media">
+                              <img src="images/patterns_emptystates_do.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Do.
+                              </div>
+                              <p>
+                                The image is neutral and clearly part of the background. The tagline conveys the purpose of the app without coming across as a call to action.
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class=" example dont">
+                            <div class="media">
+                              <img src="images/patterns_emptystates_dont.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Don't.
+                              </div>
+                              <p>
+                                The image is bright and the tagline is worded like a call to action, which may encourage users to touch either thinking a hangout will start.
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="empty-states-avoiding-completely-empty-states" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Avoiding completely empty states
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleB1">
+                      <div class="module-body">
+                        <p>
+                          There are several situations in which you can provide users with alternatives to truly empty states.
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <p>
+                          <strong>
+                            Starter content
+                          </strong>
+                        </p>
+                        <p>
+                          The most compelling way for new users to learn and get excited about your app is by using it. Consider providing starter content that will allow users to explore your app right away. 
+                        </p>
+                        <p>
+                          Recommendations:
+                        </p>
+                        <ul>
+                          <li>
+                            Use content that has broad appeal and demonstrates primary features.
+                          </li>
+                          <li>
+                            Give users the ability to delete and replace this content.
+                          </li>
+                          <li>
+                            If possible, provide content that's personalized for the user.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_emptystates_starter.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                A book reading app might provide all users with a few free popular books to immediately start exploring the app.
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <p>
+                          <strong>
+                            Educational content
+                          </strong>
+                        </p>
+                        <p>
+                          If the purpose of the screen isn't easily conveyed through an image and a tagline, consider showing educational content instead.
+                        </p>
+                        <p>
+                          Recommendations:
+                        </p>
+                        <ul>
+                          <li>
+                            Help users understand what they'll be able to do on this screen once it has content.
+                          </li>
+                          <li>
+                            Make it possible to dismiss or skip this content.
+                          </li>
+                          <li>
+                            Keep it brief.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_emptystates_education.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Before a user watches a video in the movies app, a dismissible card is shown to explain the features and benefits of the service.
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <p>
+                          <strong>
+                            Best match
+                          </strong>
+                        </p>
+                        <p>
+                          If nothing exactly matches the user's query, are there any results for a query spelled slightly differently? If so, then show the results, as they may help a user find what they're after.
+                        </p>
+                        <p>
+                          With this approach, clearly convey in a heading above results that this content shouldn't be mistaken for a match to actual query results.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Empty-state_best_match_01.png"/>
+                            </div>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Empty-state_best_match_02.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Offering “Best matches” is a great way to handle a misspelled query without explicitly placing blame on the user.
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-L section-patterns color-orange">
+           
+        </div>
+        <div class="footer-grid-L section-patterns color-orange">
+          <a class="footer-text" href="data-formats.html">
+            <i class="material-icons arrow-L">
+              arrow_back
+            </i>
+            <span class="direction">
+              Previous
+            </span>
+            <div>
+              
+                      Data formats
+                  
+            </div>
+          </a>
+        </div>
+        <div class="footer-R section-patterns color-orange">
+           
+        </div>
+        <div class="footer-grid-R section-patterns color-orange">
+          <a class="footer-text" href="errors.html">
+            <i class="material-icons arrow-R">
+              arrow_forward
+            </i>
+            <span class="direction">
+              Next
+            </span>
+            <div>
+              
+                      Errors
+                  
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/picturefill.min.js">
+    </script>
+    <script src="js/main.js">
+    </script>
+  </body>
+</html>

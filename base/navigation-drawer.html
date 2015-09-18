@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+  'Futurizr': {
+    'hasTouch': 'touch'
+  }
+}">
+  <head>
+    <link href="style/main.css" rel="stylesheet"/>
+    <link href="style/print.css" rel="stylesheet"/>
+    <link href="style/css" rel="stylesheet" type="text/css"/>
+    <link href="style/icon" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <meta name="keywords" content=""/>
+    <title>
+      Navigation drawer - Patterns - Google design guidelines
+    </title>
+    <meta itemprop="name" content="Navigation drawer - Patterns - Google design guidelines"/>
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Navigation drawer - Patterns - Google design guidelines"/>
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:site_name" content="Google design guidelines"/>
+    <meta property="article:section" content="Navigation drawer - Patterns"/>
+    <!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Navigation drawer</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">Patterns</Attribute>
+      <Attribute name="section_slug">patterns</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->    <script src="js/analytics.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51798601-1', 'auto');
+  ga('send', 'pageview');
+
+//]]>
+    </script>
+    <title id="title">
+      Expand and collapse content
+    </title>
+    <title id="title">
+      Expand and collapse content
+    </title>
+    <title id="title">
+      Expand and collapse content
+    </title>
+  </head>
+  <body class="site-material_ext_publish section-patterns noninitial-chapter color-orange qp-ui" data-qp-ui="{ 'Mask': {} }">
+    <header>
+      <div class="header-wrapper">
+        <div class="header-title">
+          <span class="section-title">
+            Patterns
+          </span>
+          <span class="chapter-title">
+            <span class="material-icons title-separator">
+              chevron_right
+            </span>
+             Navigation drawer
+          </span>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
+        <i class="material-icons material-spec-icon" title="Show navigation">
+          menu
+        </i>
+      </button>
+    </nav>
+    <div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+      <div class="side-nav-wrapper">
+        <span id="logo">
+          <img src="images/nav_google_logo.svg" alt="Logo"/>
+        </span>
+        <nav>
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Material design
+                        
+            </dt>
+            <dd>
+              <a class="" href="introduction.html">
+                Introduction
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              What is material?
+                
+            </dt>
+            <dd>
+              <a class="" href="environment.html">
+                Environment
+                    
+              </a>
+              <a class="" href="material-properties.html">
+                Material properties
+                    
+              </a>
+              <a class="" href="elevation-shadows.html">
+                Elevation and shadows
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Animation
+                
+            </dt>
+            <dd>
+              <a class="" href="authentic-motion.html">
+                Authentic motion
+                    
+              </a>
+              <a class="" href="responsive-interaction.html">
+                Responsive interaction
+                    
+              </a>
+              <a class="" href="meaningful-transitions.html">
+                Meaningful transitions
+                    
+              </a>
+              <a class="" href="delightful-details.html">
+                Delightful details
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Style
+                
+            </dt>
+            <dd>
+              <a class="" href="color.html">
+                Color
+                    
+              </a>
+              <a class="" href="icons.html">
+                Icons
+                    
+              </a>
+              <a class="" href="imagery.html">
+                Imagery
+                    
+              </a>
+              <a class="" href="typography.html">
+                Typography
+                    
+              </a>
+              <a class="" href="writing.html">
+                Writing
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Layout
+                
+            </dt>
+            <dd>
+              <a class="" href="principles.html">
+                Principles
+                    
+              </a>
+              <a class="" href="units-measurements.html">
+                Units and measurements
+                    
+              </a>
+              <a class="" href="metrics-keylines.html">
+                Metrics &amp; keylines
+                    
+              </a>
+              <a class="" href="structure.html">
+                Structure
+                    
+              </a>
+              <a class="" href="adaptive-ui.html">
+                Adaptive UI
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Components
+                
+            </dt>
+            <dd>
+              <a class="" href="bottom-sheets.html">
+                Bottom sheets
+                    
+              </a>
+              <a class="" href="buttons.html">
+                Buttons
+                    
+              </a>
+              <a class="" href="buttons-floating-action-button.html">
+                Buttons: Floating Action Button
+                    
+              </a>
+              <a class="" href="cards.html">
+                Cards
+                    
+              </a>
+              <a class="" href="chips.html">
+                Chips
+                    
+              </a>
+              <a class="" href="data-tables.html">
+                Data tables
+                    
+              </a>
+              <a class="" href="dialogs.html">
+                Dialogs
+                    
+              </a>
+              <a class="" href="dividers.html">
+                Dividers
+                    
+              </a>
+              <a class="" href="grid-lists.html">
+                Grid lists
+                    
+              </a>
+              <a class="" href="lists.html">
+                Lists
+                    
+              </a>
+              <a class="" href="lists-controls.html">
+                Lists: Controls
+                    
+              </a>
+              <a class="" href="menus.html">
+                Menus
+                    
+              </a>
+              <a class="" href="pickers.html">
+                Pickers
+                    
+              </a>
+              <a class="" href="progress-activity.html">
+                Progress &amp; activity
+                    
+              </a>
+              <a class="" href="selection-controls.html">
+                Selection controls
+                    
+              </a>
+              <a class="" href="sliders.html">
+                Sliders
+                    
+              </a>
+              <a class="" href="snackbars-toasts.html">
+                Snackbars &amp; toasts
+                    
+              </a>
+              <a class="" href="subheaders.html">
+                Subheaders
+                    
+              </a>
+              <a class="" href="tabs.html">
+                Tabs
+                    
+              </a>
+              <a class="" href="text-fields.html">
+                Text fields
+                    
+              </a>
+              <a class="" href="toolbars.html">
+                Toolbars
+                    
+              </a>
+              <a class="" href="tooltips.html">
+                Tooltips
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">
+              Patterns
+                
+            </dt>
+            <dd>
+              <a class="" href="app-structure.html">
+                App structure
+                    
+              </a>
+              <a class="" href="data-formats.html">
+                Data formats
+                    
+              </a>
+              <a class="" href="empty-states.html">
+                Empty states
+                    
+              </a>
+              <a class="" href="errors.html">
+                Errors
+                    
+              </a>
+              <a class="" href="gestures.html">
+                Gestures
+                    
+              </a>
+              <a class="" href="fingerprint.html">
+                Fingerprint
+                    
+              </a>
+              <a class="" href="launch-screens.html">
+                Launch screens
+                    
+              </a>
+              <a class="" href="loading-images.html">
+                Loading images
+                    
+              </a>
+              <a class="nav_selected" href="navigation-drawer.html">
+                Navigation drawer
+                    
+              </a>
+              <a class="" href="navigation.html">
+                Navigation
+                    
+              </a>
+              <a class="" href="navigational-transitions.html">
+                Navigational transitions
+                    
+              </a>
+              <a class="" href="notifications.html">
+                Notifications
+                    
+              </a>
+              <a class="" href="permissions.html">
+                Permissions
+                    
+              </a>
+              <a class="" href="scrolling-techniques.html">
+                Scrolling techniques
+                    
+              </a>
+              <a class="" href="search.html">
+                Search
+                    
+              </a>
+              <a class="" href="selection.html">
+                Selection
+                    
+              </a>
+              <a class="" href="settings.html">
+                Settings
+                    
+              </a>
+              <a class="" href="swipe-to-refresh.html">
+                Swipe to refresh
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Usability
+                
+            </dt>
+            <dd>
+              <a class="" href="accessibility.html">
+                Accessibility
+                    
+              </a>
+              <a class="" href="bidirectionality.html">
+                Bidirectionality
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Resources
+                
+            </dt>
+            <dd>
+              <a class="" href="color-palettes.html">
+                Color palettes
+                              
+              </a>
+              <a class="" href="devices.html">
+                Devices
+                    
+              </a>
+              <a class="" href="layout-templates.html">
+                Layout templates
+                    
+              </a>
+              <a class="" href="roboto-noto-fonts.html">
+                Roboto &amp; Noto fonts
+                    
+              </a>
+              <a class="" href="sticker-sheets-icons.html">
+                Sticker sheets &amp; icons
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              What's new
+                        
+            </dt>
+            <dd>
+              <a class="" href="whats-new.html">
+                What's new
+                    
+              </a>
+            </dd>
+          </dl>
+        </nav>
+        <div class="legal">
+          <p class="copyright">
+            Google ©
+          </p>
+          <a href="">
+            Privacy
+          </a>
+           &amp; 
+          <a href="">
+            Terms
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+        <h1 class="chapter-title">
+          Navigation drawer
+          
+        </h1>
+        <div class="chapter-content">
+          <div class="chapter-intro">
+            <p>
+              The navigation drawer slides in from the left. It is a common pattern found in Google apps and follows the keylines and metrics for lists. 
+            </p>
+          </div>
+          <nav class="chapter-toc">
+            <h1>
+              Contents
+            </h1>
+            <ul>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#navigation-drawer-specs">
+                  Specs
+                
+                </a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#navigation-drawer-content">
+                  Content
+                
+                </a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#navigation-drawer-behavior">
+                  Behavior
+                
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="article-list">
+            <div id="navigation-drawer-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Specs
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleC1 moduleC2">
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_metrics1.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Typography
+                              </div>
+                              <ol start="1">
+                                <li>
+                                  Name: Roboto Medium, 14sp, #FFFFFF
+                                </li>
+                                <li>
+                                  Email address: Roboto Regular, 14sp, #FFFFFF
+                                </li>
+                                <li>
+                                  List item: Roboto Medium, 14sp, 87% #000000
+                                </li>
+                                <li>
+                                  Subheader: Roboto Medium, 14sp, 54% #000000. Aligns to the 16dp keyline.
+                                </li>
+                              </ol>
+                              <div class="caption-title">
+                                 
+                              </div>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_metrics2.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Keylines and margins
+                              </div>
+                              <p>
+                                Icons align at screen left and right margins: 16dp
+                              </p>
+                              <p>
+                                Icon values: 54% #000000
+                              </p>
+                              <p>
+                                Content associated with an icon or avatar left margin: 72dp
+                              </p>
+                              <p>
+                                Side nav width: Equal to the screen width minus the height of the action bar. In the example shown this is 56dp from the right edge of the screen. The maximum width of the nav drawer is five times the standard increment (56dp on mobile and 64dp on tablet).
+                              </p>
+                              <p>
+                                Use 16dp horizontal margins on mobile and 24dp on tablet
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_metrics3.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Vertical spacing
+                              </div>
+                              <ol start="1">
+                                <li>
+                                  Status bar: 24dp
+                                </li>
+                                <li>
+                                  Subtitle: 56dp
+                                </li>
+                                <li>
+                                  Space between content areas: 8dp
+                                </li>
+                                <li>
+                                  Subtitles and list items: 48dp
+                                </li>
+                              </ol>
+                              <p>
+                                Add 8dp padding at the top and bottom of every list grouping. One exception is at the top of a list with a subheader, because subheaders contain their own padding. 
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="navigation-drawer-content" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Content
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleD1">
+                      <h3>
+                        Elevation
+                      </h3>
+                      <div class="module-body">
+                        <p>
+                          The nav drawer spans the full height of the screen, including behind the status bar, at a resting elevation of 16dp. Everything behind the drawer is still visible but darkened by a scrim. 
+                        </p>
+                        <h4>
+                           
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_elevation1.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Nav drawer on Android
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <h3>
+                        Selection state
+                      </h3>
+                      <div class="module-body">
+                        <p>
+                          After a list item is selected, that item changes color to match the app’s primary color (or #000000 100%) to indicate selection. Additionally, the touch ripple highlights the row of that list item. 
+                        </p>
+                        <p>
+                          If the color of the touch ripple/highlight doesn’t contrast enough with your primary color, use a darker tint of the primary color.
+                        </p>
+                        <h4>
+                           
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_selection1.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                List item selected
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_selection2.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Touch ripple/highlight
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_selection3.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Touch ripple/highlight
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_selection4.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Touch ripple/highlight
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_selection5.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Touch ripple/highlight
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_selection6.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Touch ripple/highlight
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <h3>
+                        Dividers
+                      </h3>
+                      <div class="module-body">
+                        <p>
+                          All dividers in the nav drawer are full-bleed within the drawer, 8dp padding above and below each divider.
+                        </p>
+                        <h4>
+                           
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_dividers1.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a divider
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_dividers2.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                8dp vertical spacing
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <h3>
+                        Scrolling
+                      </h3>
+                      <div class="module-body">
+                        <p>
+                          The navigation drawer scrolls in the same way a view scrolls.
+                        </p>
+                        <h4>
+                           
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_scrolling1.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Navigation drawer before scrolling
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_scrolling2.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Navigation drawer during scrolling
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <h3>
+                        Settings and support
+                      </h3>
+                      <div class="module-body">
+                        <p>
+                          Settings and support are located at the bottom of the scrolling list, inline with the rest of the list content. They refer to Help, Feedback, or Help &amp; feedback, depending on what your product offers.
+                        </p>
+                        <h4>
+                           
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_settings1.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Settings and support are located at the bottom of the scrolling list.
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="navigation-drawer-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Behavior
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleE1">
+                      <h3>
+                        Permanent
+                      </h3>
+                      <div class="module-body">
+                        <p>
+                          <strong>
+                            Recommended default for desktop
+                          </strong>
+                        </p>
+                        <p>
+                          <br/>
+                          Permanent navigation drawers are always visible and pinned to the left edge, at the same elevation as the content or background. They cannot be closed.
+                        </p>
+                        <p>
+                          The threshold for pinning is calculated using these minimum values:
+                        </p>
+                        <p>
+                          1. Side nav width
+                          <br/>
+                          2. Content width
+                          <br/>
+                          3. Content padding
+                        </p>
+                        <h4>
+                           
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_permanent1.png"/>
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h4>
+                          Types of permanent navigation drawers
+                        </h4>
+                        <p>
+                          The structure and behavior of the overall interface determines which type of permanent navigation drawer to use:
+                        </p>
+                        <ul>
+                          <li>
+                            <strong>
+                              Full-height navigation drawer: 
+                            </strong>
+                            Apps focused on information consumption that use a left-to-right hierarchy
+                          </li>
+                          <li>
+                            <strong>
+                              Navigation drawer clipped under the app bar: 
+                            </strong>
+                            Apps focused on productivity that require balance across the screen
+                          </li>
+                          <li>
+                            <strong>
+                              Floating navigation drawer
+                            </strong>
+                            : Apps that require less hierarchy
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_permanent2.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a permanent, full-height drawer 
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_permanent3.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a permanent, clipped drawer
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_permanent4.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a permanent, floating drawer 
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_permanent5.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a permanent, floating drawer in card
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <h3>
+                        Persistent
+                      </h3>
+                      <div class="module-body">
+                        <p>
+                          Persistent navigation drawers can toggle open or closed. The drawer sits on the same surface elevation as the content. It is closed by default and opens by selecting the menu icon, and stays open until closed by the user. The state of the drawer is remembered from action to action and session to session. 
+                        </p>
+                        <p>
+                          Sitting outside of the page grid, when opened the drawer forces other content to change size and adapt to the smaller viewport.
+                        </p>
+                        <p>
+                          Persistent navigation drawers are acceptable for all sizes larger than mobile.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_persistent1.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a closed persistent drawer 
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_persistent2.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of an open persistent drawer 
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleE1">
+                      <div class="module-body">
+                        <p>
+                          Persistent navigation drawers are not recommended for apps with multiple levels of hierarchy that require using an up arrow for navigation.
+                        </p>
+                        <h4>
+                           
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class=" example dont">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_persistent3.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Don't.
+                              </div>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h4>
+                          Mini variant
+                        </h4>
+                        <p>
+                          In this variation, the persistent navigation drawer changes its width. Its resting state is as a mini-drawer at the same elevation as the content, clipped by the app bar. When expanded, it appears as the standard persistent navigation drawer.
+                        </p>
+                        <p>
+                          <strong>
+                            Recommended for: 
+                          </strong>
+                          <br/>
+                          Apps sections that need quick selection access alongside content
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_persistent4.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a mini drawer 
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_persistent5.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of open persistent drawer 
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <h3>
+                        Temporary
+                      </h3>
+                      <div class="module-body">
+                        <p>
+                          Temporary navigation drawers can toggle open or closed. Closed by default, the drawer opens temporarily above all other content until a section is selected.
+                        </p>
+                        <p>
+                          <strong>
+                            Recommended for
+                          </strong>
+                          <strong>
+                            :
+                          </strong>
+                          <br/>
+                          Tablet 
+                        </p>
+                        <p>
+                          <strong>
+                            Required for:
+                          </strong>
+                          <br/>
+                          Mobile
+                        </p>
+                        <h4>
+                           
+                        </h4>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_temporary1.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a closed temporary drawer on mobile 
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_temporary2.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of an open temporary drawer on mobile  
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <p>
+                          The mini variant is also an acceptable closed state for a temporary navigation drawer.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_temporary3.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a closed temporary drawer on tablet
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_temporary4.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of an open temporary drawer on tablet  
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_temporary5.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of a closed temporary drawer on desktop
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns_navdrawer_behavior_temporary6.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of an open temporary drawer on desktop
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-L section-patterns color-orange">
+           
+        </div>
+        <div class="footer-grid-L section-patterns color-orange">
+          <a class="footer-text" href="loading-images.html">
+            <i class="material-icons arrow-L">
+              arrow_back
+            </i>
+            <span class="direction">
+              Previous
+            </span>
+            <div>
+              
+                      Loading images
+                  
+            </div>
+          </a>
+        </div>
+        <div class="footer-R section-patterns color-orange">
+           
+        </div>
+        <div class="footer-grid-R section-patterns color-orange">
+          <a class="footer-text" href="navigation.html">
+            <i class="material-icons arrow-R">
+              arrow_forward
+            </i>
+            <span class="direction">
+              Next
+            </span>
+            <div>
+              
+                      Navigation
+                  
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/picturefill.min.js">
+    </script>
+    <script src="js/main.js">
+    </script>
+  </body>
+</html>

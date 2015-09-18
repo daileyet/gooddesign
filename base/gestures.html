@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+  'Futurizr': {
+    'hasTouch': 'touch'
+  }
+}">
+  <head>
+    <link href="style/main.css" rel="stylesheet"/>
+    <link href="style/print.css" rel="stylesheet"/>
+    <link href="style/css" rel="stylesheet" type="text/css"/>
+    <link href="style/icon" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <meta name="keywords" content=""/>
+    <title>
+      Gestures - Patterns - Google design guidelines
+    </title>
+    <meta itemprop="name" content="Gestures - Patterns - Google design guidelines"/>
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Gestures - Patterns - Google design guidelines"/>
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:site_name" content="Google design guidelines"/>
+    <meta property="article:section" content="Gestures - Patterns"/>
+    <!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Gestures</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">Patterns</Attribute>
+      <Attribute name="section_slug">patterns</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->    <script src="js/analytics.js">
+    </script>
+    <script>
+//<![CDATA[
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51798601-1', 'auto');
+  ga('send', 'pageview');
+
+//]]>
+    </script>
+    <title id="title">
+      Expand and collapse content
+    </title>
+    <title id="title">
+      Expand and collapse content
+    </title>
+    <title id="title">
+      Expand and collapse content
+    </title>
+  </head>
+  <body class="site-material_ext_publish section-patterns noninitial-chapter color-orange qp-ui" data-qp-ui="{ 'Mask': {} }">
+    <header>
+      <div class="header-wrapper">
+        <div class="header-title">
+          <span class="section-title">
+            Patterns
+          </span>
+          <span class="chapter-title">
+            <span class="material-icons title-separator">
+              chevron_right
+            </span>
+             Gestures
+          </span>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
+        <i class="material-icons material-spec-icon" title="Show navigation">
+          menu
+        </i>
+      </button>
+    </nav>
+    <div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+      <div class="side-nav-wrapper">
+        <span id="logo">
+          <img src="images/nav_google_logo.svg" alt="Logo"/>
+        </span>
+        <nav>
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Material design
+                        
+            </dt>
+            <dd>
+              <a class="" href="introduction.html">
+                Introduction
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              What is material?
+                
+            </dt>
+            <dd>
+              <a class="" href="environment.html">
+                Environment
+                    
+              </a>
+              <a class="" href="material-properties.html">
+                Material properties
+                    
+              </a>
+              <a class="" href="elevation-shadows.html">
+                Elevation and shadows
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Animation
+                
+            </dt>
+            <dd>
+              <a class="" href="authentic-motion.html">
+                Authentic motion
+                    
+              </a>
+              <a class="" href="responsive-interaction.html">
+                Responsive interaction
+                    
+              </a>
+              <a class="" href="meaningful-transitions.html">
+                Meaningful transitions
+                    
+              </a>
+              <a class="" href="delightful-details.html">
+                Delightful details
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Style
+                
+            </dt>
+            <dd>
+              <a class="" href="color.html">
+                Color
+                    
+              </a>
+              <a class="" href="icons.html">
+                Icons
+                    
+              </a>
+              <a class="" href="imagery.html">
+                Imagery
+                    
+              </a>
+              <a class="" href="typography.html">
+                Typography
+                    
+              </a>
+              <a class="" href="writing.html">
+                Writing
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Layout
+                
+            </dt>
+            <dd>
+              <a class="" href="principles.html">
+                Principles
+                    
+              </a>
+              <a class="" href="units-measurements.html">
+                Units and measurements
+                    
+              </a>
+              <a class="" href="metrics-keylines.html">
+                Metrics &amp; keylines
+                    
+              </a>
+              <a class="" href="structure.html">
+                Structure
+                    
+              </a>
+              <a class="" href="adaptive-ui.html">
+                Adaptive UI
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Components
+                
+            </dt>
+            <dd>
+              <a class="" href="bottom-sheets.html">
+                Bottom sheets
+                    
+              </a>
+              <a class="" href="buttons.html">
+                Buttons
+                    
+              </a>
+              <a class="" href="buttons-floating-action-button.html">
+                Buttons: Floating Action Button
+                    
+              </a>
+              <a class="" href="cards.html">
+                Cards
+                    
+              </a>
+              <a class="" href="chips.html">
+                Chips
+                    
+              </a>
+              <a class="" href="data-tables.html">
+                Data tables
+                    
+              </a>
+              <a class="" href="dialogs.html">
+                Dialogs
+                    
+              </a>
+              <a class="" href="dividers.html">
+                Dividers
+                    
+              </a>
+              <a class="" href="grid-lists.html">
+                Grid lists
+                    
+              </a>
+              <a class="" href="lists.html">
+                Lists
+                    
+              </a>
+              <a class="" href="lists-controls.html">
+                Lists: Controls
+                    
+              </a>
+              <a class="" href="menus.html">
+                Menus
+                    
+              </a>
+              <a class="" href="pickers.html">
+                Pickers
+                    
+              </a>
+              <a class="" href="progress-activity.html">
+                Progress &amp; activity
+                    
+              </a>
+              <a class="" href="selection-controls.html">
+                Selection controls
+                    
+              </a>
+              <a class="" href="sliders.html">
+                Sliders
+                    
+              </a>
+              <a class="" href="snackbars-toasts.html">
+                Snackbars &amp; toasts
+                    
+              </a>
+              <a class="" href="subheaders.html">
+                Subheaders
+                    
+              </a>
+              <a class="" href="tabs.html">
+                Tabs
+                    
+              </a>
+              <a class="" href="text-fields.html">
+                Text fields
+                    
+              </a>
+              <a class="" href="toolbars.html">
+                Toolbars
+                    
+              </a>
+              <a class="" href="tooltips.html">
+                Tooltips
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">
+              Patterns
+                
+            </dt>
+            <dd>
+              <a class="" href="app-structure.html">
+                App structure
+                    
+              </a>
+              <a class="" href="data-formats.html">
+                Data formats
+                    
+              </a>
+              <a class="" href="empty-states.html">
+                Empty states
+                    
+              </a>
+              <a class="" href="errors.html">
+                Errors
+                    
+              </a>
+              <a class="nav_selected" href="gestures.html">
+                Gestures
+                    
+              </a>
+              <a class="" href="fingerprint.html">
+                Fingerprint
+                    
+              </a>
+              <a class="" href="launch-screens.html">
+                Launch screens
+                    
+              </a>
+              <a class="" href="loading-images.html">
+                Loading images
+                    
+              </a>
+              <a class="" href="navigation-drawer.html">
+                Navigation drawer
+                    
+              </a>
+              <a class="" href="navigation.html">
+                Navigation
+                    
+              </a>
+              <a class="" href="navigational-transitions.html">
+                Navigational transitions
+                    
+              </a>
+              <a class="" href="notifications.html">
+                Notifications
+                    
+              </a>
+              <a class="" href="permissions.html">
+                Permissions
+                    
+              </a>
+              <a class="" href="scrolling-techniques.html">
+                Scrolling techniques
+                    
+              </a>
+              <a class="" href="search.html">
+                Search
+                    
+              </a>
+              <a class="" href="selection.html">
+                Selection
+                    
+              </a>
+              <a class="" href="settings.html">
+                Settings
+                    
+              </a>
+              <a class="" href="swipe-to-refresh.html">
+                Swipe to refresh
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Usability
+                
+            </dt>
+            <dd>
+              <a class="" href="accessibility.html">
+                Accessibility
+                    
+              </a>
+              <a class="" href="bidirectionality.html">
+                Bidirectionality
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              Resources
+                
+            </dt>
+            <dd>
+              <a class="" href="color-palettes.html">
+                Color palettes
+                              
+              </a>
+              <a class="" href="devices.html">
+                Devices
+                    
+              </a>
+              <a class="" href="layout-templates.html">
+                Layout templates
+                    
+              </a>
+              <a class="" href="roboto-noto-fonts.html">
+                Roboto &amp; Noto fonts
+                    
+              </a>
+              <a class="" href="sticker-sheets-icons.html">
+                Sticker sheets &amp; icons
+                    
+              </a>
+            </dd>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">
+              What's new
+                        
+            </dt>
+            <dd>
+              <a class="" href="whats-new.html">
+                What's new
+                    
+              </a>
+            </dd>
+          </dl>
+        </nav>
+        <div class="legal">
+          <p class="copyright">
+            Google ©
+          </p>
+          <a href="">
+            Privacy
+          </a>
+           &amp; 
+          <a href="">
+            Terms
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+        <h1 class="chapter-title">
+          Gestures
+          
+        </h1>
+        <div class="chapter-content">
+          <div class="chapter-intro">
+            <p>
+              <strong>
+                Mobile only
+              </strong>
+            </p>
+            <p>
+              Gestures are divided into 
+              <strong>
+                Touch Mechanics
+              </strong>
+               (what your fingers do on the screen) and 
+              <strong>
+                Touch Activities
+              </strong>
+               (results of specific gestures).  
+            </p>
+            <p>
+              A touch mechanic (such as swipe) may have multiple results (such as enable/disable), depending on the context. A touch activity (zoom in) may be achieved through multiple touch mechanics (pinch open, double touch, etc.). 
+            </p>
+            <p>
+              The 
+              <a href="gestures.html#gestures-drag-swipe-or-fling-details">
+                Drag, Swipe, and Fling
+              </a>
+               touch activities are covered in more detail due to their highly contextual results.
+            </p>
+          </div>
+          <nav class="chapter-toc">
+            <h1>
+              Contents
+            </h1>
+            <ul>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#gestures-touch-mechanics">
+                  Touch mechanics
+                
+                </a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#gestures-touch-activities">
+                  Touch activities
+                
+                </a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="#gestures-drag-swipe-or-fling-details">
+                  Drag, swipe, or fling details
+                
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="article-list">
+            <div id="gestures-touch-mechanics" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Touch mechanics
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleB1">
+                      <div class="module-body">
+                        <p>
+                          Touch mechanics refer to what the user's fingers do on the screen.
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleC1 moduleC2">
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-touch_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Touch
+                              </div>
+                              <p>
+                                One-finger press, lift
+                              </p>
+                              <p>
+                                Example: Select
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-double-touch_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Double touch
+                              </div>
+                              <p>
+                                One-finger press, lift, one-finger press, lift
+                              </p>
+                              <p>
+                                Example: Zoom in
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-swipe_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Drag, Swipe, or Fling
+                              </div>
+                              <p>
+                                One-finger press, move, lift
+                              </p>
+                              <p>
+                                Example: Dismiss, scroll, tilt, etc.
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleC1 moduleC2">
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-long-press_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Long press
+                              </div>
+                              <p>
+                                One-finger press, wait, lift
+                              </p>
+                              <p>
+                                Example: Select an element, such as a list item
+                              </p>
+                              <p>
+                                Long press is not used to display a contextual menu.
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-long-press-drag_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Long-press drag
+                              </div>
+                              <p>
+                                One-finger press, wait, move, lift
+                              </p>
+                              <p>
+                                Example: Pick up and move, select multiple items
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchMechanics-6-Long-press-drag_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Double-touch drag
+                              </div>
+                              <p>
+                                One-finger press, lift, one-finger press, move, lift
+                              </p>
+                              <p>
+                                Example: Zoom in, zoom out
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleC1 moduleC2">
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-pinch-open_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Pinch open
+                              </div>
+                              <p>
+                                Two-finger press, move outwards, lift
+                              </p>
+                              <p>
+                                Example: Zoom in
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-pinch-closed_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Pinch closed
+                              </div>
+                              <p>
+                                Two-finger press, move inwards, lift
+                              </p>
+                              <p>
+                                Example: Zoom out
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-two-finger-touch_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Two-finger touch
+                              </div>
+                              <p>
+                                Two-finger press, lift
+                              </p>
+                              <p>
+                                Example: Zoom out
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleC1 moduleC2">
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-two-finger-swipe_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Two-finger swipe, drag, fling
+                              </div>
+                              <p>
+                                Two-finger press, move, lift
+                              </p>
+                              <p>
+                                Example: Select multiple items, pan, tilt
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-two-finger-long-press_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Two-finger long-press
+                              </div>
+                              <p>
+                                Two-finger press, wait, lift
+                              </p>
+                              <p>
+                                Example: None; this gesture is uncommon.
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-two-finger-long-press-drag_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Two-finger long-press drag
+                              </div>
+                              <p>
+                                Two-finger press, wait, move, lift
+                              </p>
+                              <p>
+                                Example: Pick up and move
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleC1 moduleC2">
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-two-finger-double-touch_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Two-finger double touch
+                              </div>
+                              <p>
+                                Two-finger press, lift, two-finger press, lift
+                              </p>
+                              <p>
+                                Example: Zoom out
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/patterns-gestures-gestures-rotate_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <div class="caption-title">
+                                Rotate
+                              </div>
+                              <p>
+                                Two-finger press, simultaneously orbit both fingers around the center point, lift
+                              </p>
+                              <p>
+                                Example: Rotate content, such as a map
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="gestures-touch-activities" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Touch activities
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleE1">
+                      <div class="module-body">
+                        <p>
+                          Specific gestures and their results, in context.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="module-body data-table">
+                              <div class="table-box">
+                                <table cellpadding="0" cellspacing="0" class="c16">
+                                  <tbody>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Action
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Description
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Touch mechanics
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Activate
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Activates a screen element, like a button
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Touch
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Cancel or Escape 
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Cancels or escapes out of the current task, as in dialogs or menus
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Touch
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Enable/Disable lights out
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Hides or shows a view’s chrome
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Touch
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Drag or Swipe or Fling
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            See the following section 
+                                          </span>
+                                          <strong>
+                                            Drag, swipe, or fling details 
+                                          </strong>
+                                          <span>
+                                            for distinctions between Scroll, Reveal upon scroll, Pan, Dismiss, Swipe to refresh, Edge swipe, Paging swipe, Overscroll collapse, Menu open, and Tilt
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Drag, Swipe, or Fling
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Data selection (when nothing is selected)
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Selects a single element 
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Long press, two-finger touch
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Data selection (when items are already selected)
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Selects additional elements while in selection mode 
+                                            <br/>
+                                            <br/>
+                                            Can use any combination of subsequent one- or two-finger gestures 
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Touch, two-finger touch 
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Data multi-selection drag
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Reveals selection box that originates from point of gesture initiation 
+                                            <br/>
+                                            The height and width can be adjusted based on finger position. 
+                                            <br/>
+                                            The final selection is based on selection box dimensions upon finger(s) lifting. 
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Two-finger swipe or drag, long-press drag with no items selected
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Pick up and move
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Affects the selected item or items. It can be used to:
+                                          </span>
+                                        </p>
+                                        <ul>
+                                          <li>
+                                            <span>
+                                              Rearrange data within a view
+                                            </span>
+                                          </li>
+                                          <li>
+                                            <span>
+                                              Move an item into a container or onto a target
+                                            </span>
+                                          </li>
+                                          <li>
+                                            <span>
+                                              Reorder items in a list or a card collection
+                                            </span>
+                                          </li>
+                                        </ul>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Two-finger long-press drag, long-press drag on selected item 
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Zoom in
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Scales up content 
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <ul>
+                                          <li>
+                                            <span>
+                                              Double-touch
+                                            </span>
+                                          </li>
+                                          <li>
+                                            <span>
+                                              Double-touch drag (down)
+                                            </span>
+                                          </li>
+                                          <li>
+                                            <span>
+                                              Pinch open
+                                            </span>
+                                          </li>
+                                        </ul>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Zoom in to fit
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            For nested views, scales up the smallest targetable view
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Double-touch
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Zoom out
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Scales down content
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <ul>
+                                          <li>
+                                            <span>
+                                              Double-touch at maximum zoom
+                                            </span>
+                                          </li>
+                                          <li>
+                                            <span>
+                                              Double-touch drag (up)
+                                            </span>
+                                          </li>
+                                          <li>
+                                            <span>
+                                              Pinch closed
+                                            </span>
+                                          </li>
+                                          <li>
+                                            <span>
+                                              Two-finger touch
+                                            </span>
+                                          </li>
+                                          <li>
+                                            <span>
+                                              Two-finger double touch                                
+                                            </span>
+                                          </li>
+                                        </ul>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Expand
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Expands collapsed content
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Pinch open
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Collapse
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Collapses expanded content 
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Pinch closed
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                    <tr class="c6">
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Rotate
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Rotates the targeted content 
+                                          </span>
+                                        </p>
+                                      </td>
+                                      <td class="c5" colspan="1" rowspan="1">
+                                        <p>
+                                          <span>
+                                            Rotate
+                                          </span>
+                                        </p>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="gestures-drag-swipe-or-fling-details" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+              <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+                
+    Drag, swipe, or fling details
+            
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewbox="0 0 10 10" aria-labelledby="title desc">
+                  <desc id="desc">
+                    An arrow that points down when collapsed and points up when expanded.
+                  </desc>
+                  <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+                </svg>
+              </h2>
+              <div class="article-content">
+                <div class="module-list">
+                  <div>
+                    <section class="moduleB1">
+                      <div class="module-body">
+                        <p>
+                          Swipe gesture activities vary based on context. The speed at which a gesture is performed is the primary distinction between Drag, Swipe, and Fling. 
+                        </p>
+                        <ul>
+                          <li>
+                            <strong>
+                              Drag: 
+                            </strong>
+                            Fine gesture, slower, more controlled, typically has an on-screen target
+                          </li>
+                          <li>
+                            <strong>
+                              Swipe:
+                            </strong>
+                             Gross gesture, faster, typically has no on-screen target
+                          </li>
+                          <li>
+                            <strong>
+                              Fling:
+                            </strong>
+                             Gross gesture, with no on-screen target
+                          </li>
+                        </ul>
+                        <p>
+                          Gesture velocity impacts whether the action is immediately reversible. 
+                        </p>
+                        <ul>
+                          <li>
+                            A swipe becomes a fling based on ending velocity and whether the affected element has crossed a threshold (or point past which an action can be undone).
+                          </li>
+                          <li>
+                            A drag maintains contact with an element, so reversing the direction of the gesture will drag the element back across the threshold. 
+                          </li>
+                          <li>
+                            A fling moves at a faster speed and removes contact with the element while it crosses the threshold, preventing the action from being undone.
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c18">
+                          <strong>
+                            Scroll
+                          </strong>
+                        </h3>
+                        <p>
+                          A 
+                          <strong>
+                            scroll
+                          </strong>
+                           is a vertical or horizontal swipe in a single direction within the content body. 
+                        </p>
+                        <p>
+                          Usage
+                        </p>
+                        <ul>
+                          <li>
+                            Scroll amount varies based on velocity of gesture: drag (slow) vs. swipe vs. fling (fast).
+                          </li>
+                          <li>
+                            Scrolled content should move at the same rate as the gesture being performed. The content should feel "anchored" to the finger or touch device.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-02_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of scroll directions
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c0">
+                          <strong>
+                            Reveal upon scroll
+                          </strong>
+                        </h3>
+                        <p>
+                          <strong>
+                            Reveal upon scroll
+                          </strong>
+                           means that reversing the scroll direction in a content area reveals hidden in-app elements. E.g., scrolling up in Chrome shows the Omnibox. To dismiss these in-app elements, resume the original scroll direction.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-02_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of scroll directions
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c0">
+                          <strong>
+                            Pan
+                          </strong>
+                        </h3>
+                        <p>
+                          A 
+                          <strong>
+                            p
+                          </strong>
+                          <strong>
+                            an
+                          </strong>
+                           is an omnidirectional one- or two-finger gesture that expands the field of view. Drag is typically used with pan. Fling will maintain gesture velocity, resulting in a significant pan of the content along the direction of the fling gesture.
+                        </p>
+                        <p>
+                          Pan is applied to:
+                        </p>
+                        <ul>
+                          <li>
+                            Unbounded content (maps)
+                          </li>
+                          <li>
+                            Content that is larger than the screen height or width (zoomed in web page or photo)
+                          </li>
+                        </ul>
+                        <p>
+                          A 
+                          <strong>
+                            two-finger pan
+                          </strong>
+                           occurs when transitioning from another two-finger gesture (e.g., pinch zoom or rotate) such as in Maps. When a gesture begins with a two-finger pan it results in 
+                          <strong>
+                            tilt
+                          </strong>
+                          .
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-03_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of pan
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c0">
+                          <strong>
+                            Dismiss
+                          </strong>
+                        </h3>
+                        <p>
+                          A 
+                          <strong>
+                            dismiss
+                          </strong>
+                           gesture originates on a swipeable element, such as a list item or card, orthogonal to the direction of scrolling.
+                        </p>
+                        <p>
+                          The gesture is typically horizontal.
+                        </p>
+                        <p>
+                          The dismiss gesture is committed based on crossing a threshold.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-04_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of dismiss gesture
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c0">
+                          <strong>
+                            Swipe to refresh
+                          </strong>
+                        </h3>
+                        <p>
+                          <strong>
+                            Swipe to refresh 
+                          </strong>
+                          usually occurs in a vertical and downward movement. It is available at the top of a list, or at the edge of any card or container where new content surfaces.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-05_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of swipe to refresh
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c0">
+                          Edge swipe
+                        </h3>
+                        <p>
+                          An 
+                          <strong>
+                            edge swipe
+                          </strong>
+                           gesture originates outside of the screen to reveal off-screen content. It invokes content separate from the current view.
+                        </p>
+                        <p>
+                          If no edge swipe action is defined, an edge swipe can default to a 
+                          <strong>
+                            paging swipe
+                          </strong>
+                          .
+                        </p>
+                        <p>
+                          The edge swipe gesture is committed based on crossing a threshold.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-06_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of edge swipe
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c0">
+                          <strong>
+                            Paging swipe
+                          </strong>
+                        </h3>
+                        <p>
+                          A 
+                          <strong>
+                            paging swipe
+                          </strong>
+                           is an on-screen, in-content swipe that reveals related off-screen content. It reveals one page/tab per paging swipe.
+                        </p>
+                        <p>
+                          If paged content is at &gt;100% zoom, an in-content swipe will 
+                          <strong>
+                            Pan
+                          </strong>
+                           to an edge of the content, and an additional in-content swipe will 
+                          <strong>
+                            Page
+                          </strong>
+                          .
+                        </p>
+                        <p>
+                          The Paging swipe gesture is committed based on crossing a threshold.
+                        </p>
+                        <p>
+                          Don’t use paging swipes when individual elements are swipeable. 
+                        </p>
+                        <p>
+                          See below: Overscroll collapse
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-07_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of paging swipe
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c0">
+                          <strong>
+                            Overscroll collapse
+                          </strong>
+                        </h3>
+                        <p>
+                          <strong>
+                            Overscroll collapse 
+                          </strong>
+                          navigates up in the content hierarchy via a paging swipe at the top or bottom of scrolling content.
+                        </p>
+                        <p>
+                          The Overscroll collapse gesture is committed based on crossing a threshold.
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-08_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of overscroll collapse
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c0">
+                          <strong>
+                            Menu open
+                          </strong>
+                        </h3>
+                        <p>
+                          A drag originating from a menu or picker reveals a menu. Upon lift, the highlighted menu option is selected.
+                        </p>
+                        <p>
+                          The menu then appears upon touch. 
+                        </p>
+                        <p>
+                          Drag is used with 
+                          <strong>
+                            Menu open
+                          </strong>
+                          .
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-09_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of menu open drag
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div>
+                    <section class="moduleD1">
+                      <div class="module-body">
+                        <h3 class="c0">
+                          <strong>
+                            Tilt
+                          </strong>
+                        </h3>
+                        <p>
+                          <strong>
+                            Tilt
+                          </strong>
+                           moves 3D content forward or backward.
+                        </p>
+                        <p>
+                          The transition from another two-finger gesture (e.g., pinch zoom or rotate) such as in Maps, will result in a 
+                          <strong>
+                            two-finger pan
+                          </strong>
+                          .
+                        </p>
+                        <p>
+                          Drag is used with 
+                          <strong>
+                            Tilt
+                          </strong>
+                          .
+                        </p>
+                      </div>
+                      <div class="figure-group">
+                        <div class="figure-row">
+                          <figure class="">
+                            <div class="media">
+                              <img src="images/Patterns-Gestures-TouchActivities-10_large_xhdpi.png"/>
+                            </div>
+                            <figcaption>
+                              <p>
+                                Example of tilt
+                              </p>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-L section-patterns color-orange">
+           
+        </div>
+        <div class="footer-grid-L section-patterns color-orange">
+          <a class="footer-text" href="errors.html">
+            <i class="material-icons arrow-L">
+              arrow_back
+            </i>
+            <span class="direction">
+              Previous
+            </span>
+            <div>
+              
+                      Errors
+                  
+            </div>
+          </a>
+        </div>
+        <div class="footer-R section-patterns color-orange">
+           
+        </div>
+        <div class="footer-grid-R section-patterns color-orange">
+          <a class="footer-text" href="fingerprint.html">
+            <i class="material-icons arrow-R">
+              arrow_forward
+            </i>
+            <span class="direction">
+              Next
+            </span>
+            <div>
+              
+                      Fingerprint
+                  
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/picturefill.min.js">
+    </script>
+    <script src="js/main.js">
+    </script>
+  </body>
+</html>
