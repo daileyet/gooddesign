@@ -3,7 +3,6 @@
 
 	<head>
 		<link href="base/style/main.css" rel="stylesheet" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="initial-scale=1, width=device-width" />
 		<meta name="keywords" content="" />
@@ -32,6 +31,13 @@
 				stroke: darkgoldenrod;
 				stroke-width: 1px;
 			}
+			.pict-header {
+				background-image: url(Article_Welcome_Header_B.svg);
+			}
+			header {
+				
+				
+			}
 		</style>
 	</head>
 
@@ -50,36 +56,45 @@
 
 					<defs>
 						<g id="rect11">
-							<rect x="0" width="100%" height="100" fill="slateblue" />
+							<rect x="30%" width="100%" height="100" fill="slateblue" />
 							<a xlink:href="//www.google.com/design/spec/material-design/introduction.html">
 								<text x="50%" y="50" textLength="100" class="txt" transform="translate(-50,0)">Google</text>
 							</a>
 						</g>
 
 						<g id="rect12">
-							<rect x="0" width="100%" height="100" fill="orange" />
+							<rect x="30%" width="100%" height="100" fill="orange" />
 							<a xlink:href="//daileyet.github.io/gooddesign/base/introduction.html">
 								<text x="50%" y="50" textLength="100" class="txt" transform="translate(-50,0)">English</text>
 							</a>
 						</g>
 
 						<g id="rect13">
-							<rect x="0" width="100%" height="100" fill="olivedrab" />
+							<rect x="30%" width="100%" height="100" fill="olivedrab" />
 							<a xlink:href="//daileyet.github.io/gooddesign/zh_CN/introduction.html">
 								<text x="50%" y="50" textLength="100" class="txt" transform="translate(-50,0)">Chinese</text>
 							</a>
+
 						</g>
 
+						<g id="pict">
+							<rect x="0" y="0" width="30%" height="300" fill="#3367D6" />
+							<image xlink:href="base/images/design.svg" x="0" y="0" width="30%" height="300" />
+						</g>
 					</defs>
+
+
 					<use xlink:href="#rect11" transform="translate(0,0)" />
 
 					<use xlink:href="#rect12" transform="translate(0,100)" />
 
 					<use xlink:href="#rect13" transform="translate(0,200)" />
 
+					<use xlink:href="#pict" />
+
 				</svg>
 			</center>
-			
+
 		</main>
 
 		<footer>
