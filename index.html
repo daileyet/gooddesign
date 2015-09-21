@@ -17,7 +17,7 @@
 				background-color: #03A9F4;
 			}
 			svg {
-				min-height: 500px;
+				min-height: 300px;
 			}
 			.txt {
 				stroke: white;
@@ -26,17 +26,14 @@
 				lengthAdjust: spacing;
 				fill: white;
 			}
-			.circle {
-				fill: white;
-				stroke: darkgoldenrod;
-				stroke-width: 1px;
+			.shadow:hover,.shadow:focus {
+				z-index: 999;
+				filter:url(#f2);
+				opacity: 1;
 			}
-			.pict-header {
-				background-image: url(Article_Welcome_Header_B.svg);
-			}
-			header {
-				
-				
+			.shadow{
+				z-index: 1;
+				opacity: .9;
 			}
 		</style>
 	</head>
@@ -63,7 +60,7 @@
 						</g>
 
 						<g id="rect12">
-							<rect x="30%" width="100%" height="100" fill="orange" />
+							<rect x="30%" width="100%" height="100" fill="mediumvioletred" />
 							<a xlink:href="//daileyet.github.io/gooddesign/base/introduction.html">
 								<text x="50%" y="50" textLength="100" class="txt" transform="translate(-50,0)">English</text>
 							</a>
@@ -78,19 +75,25 @@
 						</g>
 
 						<g id="pict">
-							<rect x="0" y="0" width="30%" height="300" fill="#3367D6" />
+							<rect x="0" y="0" width="30%" height="306" fill="#3367D6" />
 							<image xlink:href="base/images/design.svg" x="0" y="0" width="30%" height="300" />
 						</g>
+
+						<filter id="f2" x="0" y="0" width="150%" height="150%">
+							<feOffset result="offOut" in="SourceGraphic" dx="2" dy="2" />
+							<feGaussianBlur result="blurOut" in="offOut" stdDeviation="4" />
+							<feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+						</filter>
+						
 					</defs>
 
+					<use xlink:href="#rect11" transform="translate(0,0)" class="shadow" />
 
-					<use xlink:href="#rect11" transform="translate(0,0)" />
+					<use xlink:href="#rect12" transform="translate(0,103)" class="shadow" />
 
-					<use xlink:href="#rect12" transform="translate(0,100)" />
+					<use xlink:href="#rect13" transform="translate(0,206)" class="shadow" />
 
-					<use xlink:href="#rect13" transform="translate(0,200)" />
-
-					<use xlink:href="#pict" />
+					<use xlink:href="#pict" class="shadow" />
 
 				</svg>
 			</center>
